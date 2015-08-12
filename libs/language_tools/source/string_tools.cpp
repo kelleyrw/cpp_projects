@@ -126,14 +126,12 @@ std::string lt::pm(double const value, double const error, std::string const &pr
 
 std::string lt::pm(std::pair<double, double> const &value_pair, std::string const &precision)
 {
-    std::string format_string = "%" + precision + "f +/- %" + precision +"f";
-    return std::string(string_format(format_string, value_pair.first, value_pair.second));
+    return lt::pm(value_pair.first, value_pair.second);
 }
 
 std::string lt::pm(std::pair<float, float> const &value_pair, std::string const &precision)
 {
-    std::string format_string = "%" + precision + "f +/- %" + precision +"f";
-    return std::string(string_format(format_string, value_pair.first, value_pair.second));
+    return lt::pm(value_pair.first, value_pair.second);
 }
 
 // print value and error with +/- in latex
@@ -147,12 +145,10 @@ std::string lt::pm_latex(double const value, double const error, std::string con
 
 std::string lt::pm_latex(std::pair<double, double> const &value_pair, std::string const &precision)
 {
-    std::string format_string = "%" + precision + "f $\\pm$ %" + precision +"f";
-    return std::string(string_format(format_string, value_pair.first, value_pair.second));
+    return lt::pm_latex(value_pair.first, value_pair.second);
 }
 
 std::string lt::pm_latex(std::pair<float, float> const &value_pair, std::string const &precision)
 {
-    std::string format_string = "%" + precision + "f $\\pm$ %" + precision +"f";
-    return std::string(string_format(format_string, value_pair.first, value_pair.second));
+    return lt::pm_latex(value_pair.first, value_pair.second);
 }
