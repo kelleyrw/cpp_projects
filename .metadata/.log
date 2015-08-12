@@ -152,3 +152,6 @@ org.eclipse.core.internal.resources.ResourceException: The project description f
 
 !ENTRY org.eclipse.core.net 1 0 2015-08-11 21:30:54.599
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-08-11 21:39:41.870
+!MESSAGE Indexed 'language_tools' (7 sources, 1,177 headers) in 23.7 sec: 74,359 declarations; 432,210 references; 3 unresolved inclusions; 28 syntax errors; 1,873 unresolved names (0.37%)

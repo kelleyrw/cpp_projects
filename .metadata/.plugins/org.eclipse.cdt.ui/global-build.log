@@ -1,29 +1,4 @@
-17:27:50 **** Build of configuration boost.build.release for project test_language_tools ****
-/usr/local/boost/1.58.0/bjam release -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools/test 
-Performing configuration checks
-
-    - 32-bit                   : no  (cached)
-    - 64-bit                   : yes (cached)
-    - arm                      : no  (cached)
-    - mips1                    : no  (cached)
-    - power                    : no  (cached)
-    - sparc                    : no  (cached)
-    - x86                      : yes (cached)
-...patience...
-...found 1598 targets...
-...updating 4 targets...
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/release/source
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/release/source/test_language_tools.o
-clang-darwin.link /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/release/test_language_tools
-clang-darwin.link /Users/rwk7t/Development/cpp_projects/bin/release/test_language_tools
-...updated 4 targets...
-
-17:27:51 Build Finished (took 982ms)
-
-17:27:51 **** Build of configuration Default for project test_language_tools ****
-make all 
-make: *** No rule to make target `all'.  Stop.
-17:27:51 **** Build of configuration boost.build.debug for project test_language_tools ****
+21:50:39 **** Incremental Build of configuration boost.build.debug for project test_language_tools ****
 /usr/local/boost/1.58.0/bjam debug -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools/test 
 Performing configuration checks
 
@@ -35,40 +10,17 @@ Performing configuration checks
     - sparc                    : no  (cached)
     - x86                      : yes (cached)
 ...patience...
-...found 1518 targets...
-...updating 29 targets...
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug
-common.mkdir /usr/local/boost/1.58.0/bin.v2/libs/filesystem/build/clang-darwin-c++11/debug
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/debug
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug/source
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/source
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/source/is_zero.o
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/source/is_equal.o
-clang-darwin.compile.c++ /usr/local/boost/1.58.0/bin.v2/libs/system/build/clang-darwin-c++11/debug/error_code.o
-clang-darwin.link.dll /usr/local/boost/1.58.0/bin.v2/libs/system/build/clang-darwin-c++11/debug/libboost_system.so
-common.copy /Users/rwk7t/Development/cpp_projects/bin/debug/libboost_system.so
-clang-darwin.compile.c++ /usr/local/boost/1.58.0/bin.v2/libs/filesystem/build/clang-darwin-c++11/debug/codecvt_error_category.o
+...found 1613 targets...
+...updating 3 targets...
 clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug/source/test_language_tools.o
-clang-darwin.compile.c++ /usr/local/boost/1.58.0/bin.v2/libs/filesystem/build/clang-darwin-c++11/debug/path.o
-clang-darwin.compile.c++ /usr/local/boost/1.58.0/bin.v2/libs/filesystem/build/clang-darwin-c++11/debug/operations.o
-clang-darwin.compile.c++ /usr/local/boost/1.58.0/bin.v2/libs/filesystem/build/clang-darwin-c++11/debug/path_traits.o
-clang-darwin.compile.c++ /usr/local/boost/1.58.0/bin.v2/libs/filesystem/build/clang-darwin-c++11/debug/windows_file_codecvt.o
-clang-darwin.compile.c++ /usr/local/boost/1.58.0/bin.v2/libs/filesystem/build/clang-darwin-c++11/debug/portability.o
-clang-darwin.compile.c++ /usr/local/boost/1.58.0/bin.v2/libs/filesystem/build/clang-darwin-c++11/debug/utf8_codecvt_facet.o
-clang-darwin.compile.c++ /usr/local/boost/1.58.0/bin.v2/libs/filesystem/build/clang-darwin-c++11/debug/unique_path.o
-clang-darwin.link.dll /usr/local/boost/1.58.0/bin.v2/libs/filesystem/build/clang-darwin-c++11/debug/libboost_filesystem.so
-common.copy /Users/rwk7t/Development/cpp_projects/bin/debug/libboost_filesystem.so
-rootcling-action /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/language_tools__Dict.cpp
-/Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/language_tools__Dict_rdict.pcm
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/source/string_tools.o
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/language_tools__Dict.o
-clang-darwin.link.dll /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/liblanguage_tools.so
-common.copy /Users/rwk7t/Development/cpp_projects/bin/debug/liblanguage_tools.so
+source/test_language_tools.cpp:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
 clang-darwin.link /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug/test_language_tools
 clang-darwin.link /Users/rwk7t/Development/cpp_projects/bin/debug/test_language_tools
-...updated 29 targets...
-17:28:30 **** Incremental Build of configuration boost.build.release for project language_tools ****
+...updated 3 targets...
+21:50:55 **** Incremental Build of configuration boost.build.release for project language_tools ****
 /usr/local/boost/1.58.0/bjam release -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools 
 Performing configuration checks
 
@@ -81,7 +33,7 @@ Performing configuration checks
     - x86                      : yes (cached)
 ...patience...
 ...found 1589 targets...
-17:28:30 **** Incremental Build of configuration boost.build.debug for project test_language_tools ****
+21:50:56 **** Incremental Build of configuration boost.build.debug for project test_language_tools ****
 /usr/local/boost/1.58.0/bjam debug -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools/test 
 Performing configuration checks
 
@@ -93,111 +45,9 @@ Performing configuration checks
     - sparc                    : no  (cached)
     - x86                      : yes (cached)
 ...patience...
-...found 1598 targets...
-17:30:30 **** Incremental Build of configuration boost.build.release for project language_tools ****
-/usr/local/boost/1.58.0/bjam release -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools 
-Performing configuration checks
-
-    - 32-bit                   : no  (cached)
-    - 64-bit                   : yes (cached)
-    - arm                      : no  (cached)
-    - mips1                    : no  (cached)
-    - power                    : no  (cached)
-    - sparc                    : no  (cached)
-    - x86                      : yes (cached)
-...patience...
-...found 1589 targets...
-21:31:06 **** Incremental Build of configuration boost.build.release for project language_tools ****
-/usr/local/boost/1.58.0/bjam release -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools 
-Performing configuration checks
-
-    - 32-bit                   : no
-    - 64-bit                   : yes
-    - arm                      : no
-    - mips1                    : no
-    - power                    : no
-    - sparc                    : no
-    - x86                      : yes
-...patience...
-...found 1504 targets...
-...updating 17 targets...
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/release
-common.copy /Users/rwk7t/Development/cpp_projects/bin/release/libboost_system.so
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs
-common.copy /Users/rwk7t/Development/cpp_projects/bin/release/libboost_filesystem.so
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/release
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/release/source
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/release/source/is_zero.o
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/release/source/is_equal.o
-rootcling-action /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/release/language_tools__Dict.cpp
-/Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/release/language_tools__Dict_rdict.pcm
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/release/source/string_tools.o
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/release/language_tools__Dict.o
-clang-darwin.link.dll /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/release/liblanguage_tools.so
-common.copy /Users/rwk7t/Development/cpp_projects/bin/release/liblanguage_tools.so
-...updated 17 targets...
-21:31:10 **** Incremental Build of configuration boost.build.debug for project test_language_tools ****
-/usr/local/boost/1.58.0/bjam debug -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools/test 
-Performing configuration checks
-
-    - 32-bit                   : no  (cached)
-    - 64-bit                   : yes (cached)
-    - arm                      : no  (cached)
-    - mips1                    : no  (cached)
-    - power                    : no  (cached)
-    - sparc                    : no  (cached)
-    - x86                      : yes (cached)
-...patience...
-...found 1518 targets...
-...updating 19 targets...
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/debug
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/source
-common.copy /Users/rwk7t/Development/cpp_projects/bin/debug/libboost_system.so
-common.copy /Users/rwk7t/Development/cpp_projects/bin/debug/libboost_filesystem.so
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug
-common.mkdir /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug/source
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/source/is_zero.o
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/source/is_equal.o
+...found 1613 targets...
+...updating 3 targets...
 clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug/source/test_language_tools.o
-rootcling-action /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/language_tools__Dict.cpp
-/Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/language_tools__Dict_rdict.pcm
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/source/string_tools.o
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/language_tools__Dict.o
-clang-darwin.link.dll /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/liblanguage_tools.so
-common.copy /Users/rwk7t/Development/cpp_projects/bin/debug/liblanguage_tools.so
 clang-darwin.link /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug/test_language_tools
 clang-darwin.link /Users/rwk7t/Development/cpp_projects/bin/debug/test_language_tools
-...updated 19 targets...
-21:31:19 **** Incremental Build of configuration boost.build.release for project language_tools ****
-/usr/local/boost/1.58.0/bjam release -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools 
-Performing configuration checks
-
-    - 32-bit                   : no  (cached)
-    - 64-bit                   : yes (cached)
-    - arm                      : no  (cached)
-    - mips1                    : no  (cached)
-    - power                    : no  (cached)
-    - sparc                    : no  (cached)
-    - x86                      : yes (cached)
-...patience...
-...found 1589 targets...
-21:31:19 **** Incremental Build of configuration boost.build.debug for project test_language_tools ****
-/usr/local/boost/1.58.0/bjam debug -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools/test 
-Performing configuration checks
-
-    - 32-bit                   : no  (cached)
-    - 64-bit                   : yes (cached)
-    - arm                      : no  (cached)
-    - mips1                    : no  (cached)
-    - power                    : no  (cached)
-    - sparc                    : no  (cached)
-    - x86                      : yes (cached)
-...patience...
-...found 1598 targets...
+...updated 3 targets...
