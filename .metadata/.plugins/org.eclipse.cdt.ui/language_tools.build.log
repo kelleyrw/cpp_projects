@@ -1,4 +1,4 @@
-17:30:30 **** Incremental Build of configuration boost.build.release for project language_tools ****
+21:31:19 **** Incremental Build of configuration boost.build.release for project language_tools ****
 /usr/local/boost/1.58.0/bjam release -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools 
 Performing configuration checks
 
@@ -12,5 +12,5 @@ Performing configuration checks
 ...patience...
 ...found 1589 targets...
 
-17:30:31 Build Finished (took 537ms)
+21:31:19 Build Finished (took 580ms)
 
