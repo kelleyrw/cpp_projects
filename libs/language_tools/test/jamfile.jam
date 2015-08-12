@@ -1,0 +1,19 @@
+# jamfile for testing language tools lib 
+# -------------------------------------------------------------------- #
+
+exe test_language_tools
+ : # sources
+   ./source/test_language_tools.cpp
+   # dependent packages
+   /language_tools//language_tools
+ : # requirements
+ : # default-build
+ : # usage-requirements
+ ;
+
+# install libs/exes
+# -------------------------------------------------------------- #
+
+default-install test_language_tools ;
+
+

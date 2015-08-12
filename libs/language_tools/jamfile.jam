@@ -1,0 +1,32 @@
+# Analysis Tools jamfile
+
+lib language_tools
+  : # sources
+    ./source/is_equal.cpp
+    ./source/is_zero.cpp
+    ./source/string_tools.cpp
+    [ rootcling Dict
+      : # source
+        ./include/lt/language_tools.hpp
+      : # requirements
+        <include>./include
+        <include>./include/lt
+        <include>./source
+        <linkdef>./source/language_tools_LinkDef.h
+    ]
+    # dependent packages
+    /root
+    /boost//headers
+    /boost//filesystem
+  : # requirements 
+    <include>./include/lt
+    <include>./include
+    <include>./source 
+  : # default-build
+  : # usage-requirements
+    <include>./include
+    <include>./source 
+  ;
+
+default-install /language_tools//language_tools : <link>shared ;
+

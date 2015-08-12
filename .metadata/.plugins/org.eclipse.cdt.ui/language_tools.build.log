@@ -1,0 +1,16 @@
+17:30:30 **** Incremental Build of configuration boost.build.release for project language_tools ****
+/usr/local/boost/1.58.0/bjam release -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools 
+Performing configuration checks
+
+    - 32-bit                   : no  (cached)
+    - 64-bit                   : yes (cached)
+    - arm                      : no  (cached)
+    - mips1                    : no  (cached)
+    - power                    : no  (cached)
+    - sparc                    : no  (cached)
+    - x86                      : yes (cached)
+...patience...
+...found 1589 targets...
+
+17:30:31 Build Finished (took 537ms)
+
