@@ -41,10 +41,9 @@ std::string lt::string_replace_first(std::string const &str,  std::string const 
 std::string lt::string_replace_last(std::string const &str,  std::string const &sub_str,  std::string const &new_sub_str)
 {
     std::string result(str);
-    boost::replace_first(result, sub_str, new_sub_str); 
+    boost::replace_last(result, sub_str, new_sub_str);
     return result;
 }
-
 
 std::string lt::string_lower(std::string const &str)
 {
@@ -64,6 +63,7 @@ float lt::string_to_float(std::string const &str)
 {
     return boost::lexical_cast<float>(str);
 }
+
 double lt::string_to_double(std::string const &str)
 {
     return boost::lexical_cast<double>(str);
