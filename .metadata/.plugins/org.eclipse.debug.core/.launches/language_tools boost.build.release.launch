@@ -21,7 +21,7 @@
 <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="/Users/rwk7t/Development/cpp_projects/bin/debug/test_language_tools"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="language_tools"/>
 <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="cdt.managedbuild.toolchain.gnu.macosx.base.361075893.176279433.52864179"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/language_tools"/>
 </listAttribute>

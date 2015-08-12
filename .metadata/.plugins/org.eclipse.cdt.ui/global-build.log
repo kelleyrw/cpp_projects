@@ -1,4 +1,4 @@
-21:50:39 **** Incremental Build of configuration boost.build.debug for project test_language_tools ****
+21:52:46 **** Incremental Build of configuration boost.build.debug for project test_language_tools ****
 /usr/local/boost/1.58.0/bjam debug -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools/test 
 Performing configuration checks
 
@@ -11,17 +11,8 @@ Performing configuration checks
     - x86                      : yes (cached)
 ...patience...
 ...found 1613 targets...
-...updating 3 targets...
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug/source/test_language_tools.o
-source/test_language_tools.cpp:15:1: warning: control reaches end of non-void function [-Wreturn-type]
-}
-^
-1 warning generated.
-clang-darwin.link /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug/test_language_tools
-clang-darwin.link /Users/rwk7t/Development/cpp_projects/bin/debug/test_language_tools
-...updated 3 targets...
-21:50:55 **** Incremental Build of configuration boost.build.release for project language_tools ****
-/usr/local/boost/1.58.0/bjam release -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools 
+21:53:46 **** Incremental Build of configuration boost.build.debug for project language_tools ****
+/usr/local/boost/1.58.0/bjam debug -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools 
 Performing configuration checks
 
     - 32-bit                   : no  (cached)
@@ -33,21 +24,3 @@ Performing configuration checks
     - x86                      : yes (cached)
 ...patience...
 ...found 1589 targets...
-21:50:56 **** Incremental Build of configuration boost.build.debug for project test_language_tools ****
-/usr/local/boost/1.58.0/bjam debug -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools/test 
-Performing configuration checks
-
-    - 32-bit                   : no  (cached)
-    - 64-bit                   : yes (cached)
-    - arm                      : no  (cached)
-    - mips1                    : no  (cached)
-    - power                    : no  (cached)
-    - sparc                    : no  (cached)
-    - x86                      : yes (cached)
-...patience...
-...found 1613 targets...
-...updating 3 targets...
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug/source/test_language_tools.o
-clang-darwin.link /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug/test_language_tools
-clang-darwin.link /Users/rwk7t/Development/cpp_projects/bin/debug/test_language_tools
-...updated 3 targets...
