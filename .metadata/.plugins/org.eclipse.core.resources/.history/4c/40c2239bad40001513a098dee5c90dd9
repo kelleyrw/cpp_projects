@@ -1,0 +1,18 @@
+#include<iostream>
+
+bool const test_string_contains()
+{
+	const bool result =
+			lt::string_contains("Ryan Ward Kelley", "Kelley")==true &&
+			lt::string_contains("Ryan Ward Kelley", "kelley")==false
+			;
+}
+
+int main()
+{
+    std::cout << "testing lt::language_tools..." << std::endl;
+
+    // test string contains
+
+    return 0;
+}
