@@ -1,4 +1,4 @@
-22:01:58 **** Incremental Build of configuration boost.build.debug for project test_language_tools ****
+10:49:30 **** Incremental Build of configuration boost.build.debug for project test_language_tools ****
 /usr/local/boost/1.58.0/bjam debug -j7 /Users/rwk7t/Development/cpp_projects/libs/language_tools/test 
 Performing configuration checks
 
@@ -11,13 +11,11 @@ Performing configuration checks
     - x86                      : yes (cached)
 ...patience...
 ...found 1613 targets...
-...updating 5 targets...
-clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/source/string_tools.o
-clang-darwin.link.dll /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/clang-darwin-c++11/debug/liblanguage_tools.so
-common.copy /Users/rwk7t/Development/cpp_projects/bin/debug/liblanguage_tools.so
+...updating 3 targets...
+clang-darwin.compile.c++ /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug/source/test_language_tools.o
 clang-darwin.link /Users/rwk7t/Development/cpp_projects/bin/temp/libs/language_tools/test/clang-darwin-c++11/debug/test_language_tools
 clang-darwin.link /Users/rwk7t/Development/cpp_projects/bin/debug/test_language_tools
-...updated 5 targets...
+...updated 3 targets...
 
-22:02:01 Build Finished (took 2s.401ms)
+10:49:31 Build Finished (took 989ms)
 
